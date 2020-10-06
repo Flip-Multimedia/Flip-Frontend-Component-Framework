@@ -1,0 +1,147 @@
+.add-section {
+  width: 50px;
+  min-height: 50px;
+
+  background-color: #2b2e32;
+  border-radius: 25px;
+
+  line-height: 50px;
+  color: white;
+  text-align: center;
+
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: -25px;
+  z-index: 9999999;
+
+  padding: 5px;
+  position: absolute;
+}
+
+.add-section i {
+  font-size: 15px;
+  font-weight: lighter;
+
+  margin-top: 12.5px;
+}
+
+.dynamicComponentSection {
+  width: 100%;
+}
+
+.section-options {
+  position: absolute;
+  width: 100%;
+
+  border-style: solid;
+  border-color: #2b2e32;;
+  border-width: 2px;
+}
+
+.action-bar {
+  min-width: 100px;
+  height: 30px;
+
+  line-height: 30px;
+  padding-left: 7px;
+  padding-right: 7px;
+  float: left;
+
+  background-color: #2b2e32;;
+}
+
+div[data-type="component"] > .action-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.action-bar > i {
+  margin-left: 7px;
+  color: #fff;
+}
+.action-bar > i:first-child {
+  margin-left: 0px;
+}
+
+.action-bar > .colour-selector {
+  min-width: 100px;
+  min-height: 30px;
+
+  border-top-style: solid;
+  border-top-color: grey;
+  border-top-width: 0.5px;
+
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  z-index: 999999;
+  background-color: #2b2e32;
+  padding: 10px;
+}
+
+.action-bar > .colour-selector > .colour {
+  width: 20px;
+  height: 20px;
+
+  display: inline-block;
+
+  border-radius: 10px;
+  border-style: solid;
+  border-color: grey;
+  border-width: 0.15px;
+
+  z-index: 999999999;
+  margin: 0;
+  margin-left: 10px;
+}
+
+.action-bar > .colour-selector > .colour:hover {
+  cursor: pointer;
+}
+
+.action-bar > .colour-selector > .colour:first-child {
+  margin-left: 0px;
+}
+
+.hover {
+  position: relative;
+
+  border-style: solid;
+  border-color: #2b2e32;
+  border-width: 2px;
+  z-index: 800;
+
+  cursor: pointer;
+}
+
+.fa-save {
+  color: greenyellow !important;
+}
+
+.guide-x {
+  width: 1.5px;
+  height: 100%;
+
+  background-color: red;
+  z-index: 999;
+  position: absolute;
+
+  top: 0;
+  height: 100%;
+}
+
+.save-pos-changes {
+  position: absolute;
+  border-style: solid;
+  border-color: grey;
+  border-width: 1.5px;
+
+  width: 100%;
+  height: 100%;
+}
