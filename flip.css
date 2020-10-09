@@ -50,6 +50,9 @@
   padding-right: 7px;
   float: left;
 
+  position: absolute;
+  z-index:999999;
+
   background-color: #2b2e32;;
 }
 
